@@ -60,7 +60,7 @@ function renderCanvas() {
   context.fillRect(paddleBottomX, height - 20, paddleWidth, paddleHeight);
 
   // Computer Paddle (Top)
-  // context.fillRect(paddleTopX, 10, paddleWidth, paddleHeight);
+  context.fillRect(paddleTopX, 10, paddleWidth, paddleHeight);
 
   // Dashed Center Line
   // context.beginPath();

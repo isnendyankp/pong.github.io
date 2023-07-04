@@ -54,7 +54,7 @@ function renderCanvas() {
   context.fillRect(0, 0, width, height);
 
   // Paddle Color
-  // context.fillStyle = 'white';
+  context.fillStyle = 'white';
 
   // Player Paddle (Bottom)
   // context.fillRect(paddleBottomX, height - 20, paddleWidth, paddleHeight);

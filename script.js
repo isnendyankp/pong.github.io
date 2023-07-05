@@ -206,7 +206,9 @@ function animate() {
   ballBoundaries();
   computerAI();
   gameOver();
-  window.requestAnimationFrame(animate);
+  if (!isGameOver) {
+    window.requestAnimationFrame(animate);
+  }
 }
 
 // Start Game, Reset Everything

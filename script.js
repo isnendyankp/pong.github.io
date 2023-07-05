@@ -205,6 +205,7 @@ function animate() {
   ballMove();
   ballBoundaries();
   computerAI();
+  gameOver();
   window.requestAnimationFrame(animate);
 }
 

@@ -217,7 +217,7 @@ function startGame() {
 
 
   // }
-  // isGameOver = ;
+  isGameOver = false;
   // isNewGame = ;
   playerScore = 0;
   computerScore = 0;

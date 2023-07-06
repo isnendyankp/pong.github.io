@@ -218,10 +218,11 @@ function animate() {
 
 // Start Game, Reset Everything
 function startGame() {
-  // if (isGameOver && !isNewGame) {
-
-
-  // }
+  // only run after we've seen a game over screen & start to second round
+  if (isGameOver && !isNewGame) {
+    body.removeChild(gameOverEl);
+    canvas.hidden = false;
+  }
   isGameOver = false;
   // isNewGame = ;
   playerScore = 0;

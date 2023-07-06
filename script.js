@@ -182,10 +182,11 @@ function showGameOverEl(winner) {
   // Adding title, passing in the winner in a template string either player wins or computer wins
   const title = document.createElement('h1');
   title.textContent = `${winner} Wins!`;
-  // // Button
-  // const playAgainBtn = document.createElement('button');
-  // playAgainBtn.setAttribute('onclick', 'startGame()');
-  // playAgainBtn.textContent = 'Play Again';
+  // Button
+  // play again button that we're relaunch at start beginning
+  const playAgainBtn = document.createElement('button');
+  playAgainBtn.setAttribute('onclick', 'startGame()');
+  playAgainBtn.textContent = 'Play Again';
   // // Append
 
   

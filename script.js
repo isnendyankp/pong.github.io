@@ -173,7 +173,8 @@ function computerAI() {
 
 function showGameOverEl(winner) {
   // Hide Canvas
-
+  // need hide canvas to show our gameover element
+  canvas.hidden = true;
   // Container
   // resetting the game over element every time this is run
   gameOverEl.textContent = '';
@@ -187,7 +188,8 @@ function showGameOverEl(winner) {
   const playAgainBtn = document.createElement('button');
   playAgainBtn.setAttribute('onclick', 'startGame()');
   playAgainBtn.textContent = 'Play Again';
-  // // Append
+  // Append
+  // Append game over elements into our body
 
   
 }

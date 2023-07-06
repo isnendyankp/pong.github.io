@@ -178,9 +178,10 @@ function showGameOverEl(winner) {
   // resetting the game over element every time this is run
   gameOverEl.textContent = '';
   gameOverEl.classList.add('game-over-container');
-  // // Title
-  // const title = document.createElement('h1');
-  // title.textContent = `${winner} Wins!`;
+  // Title
+  // Adding title, passing in the winner in a template string either player wins or computer wins
+  const title = document.createElement('h1');
+  title.textContent = `${winner} Wins!`;
   // // Button
   // const playAgainBtn = document.createElement('button');
   // playAgainBtn.setAttribute('onclick', 'startGame()');

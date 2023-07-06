@@ -174,9 +174,10 @@ function computerAI() {
 function showGameOverEl(winner) {
   // Hide Canvas
 
-  // // Container
-  // gameOverEl.textContent = '';
-  // gameOverEl.classList.add('game-over-container');
+  // Container
+  // resetting the game over element every time this is run
+  gameOverEl.textContent = '';
+  gameOverEl.classList.add('game-over-container');
   // // Title
   // const title = document.createElement('h1');
   // title.textContent = `${winner} Wins!`;
